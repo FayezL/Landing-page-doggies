@@ -1,4 +1,4 @@
-/*
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');/*
   1. Use a more-intuitive box-sizing model.
 */
 *, *::before, *::after {
@@ -15,6 +15,7 @@
 */
 html, body {
   height: 100%;
+
 }
 /*
   Typographic tweaks!
@@ -24,6 +25,7 @@ html, body {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  font-family: 'Roboto', sans-serif;
 }
 /*
   6. Improve media defaults
@@ -50,13 +52,40 @@ p, h1, h2, h3, h4, h5, h6 {
 #root, #__next {
   isolation: isolate;
 }
-.flex-section{
+/* general styling */
+.first-section{
   background-color:#1f2937;
   color: white;
   display: flex;
+  align-items: center;
 justify-content: space-evenly;
 
 
+}
+
+.main{
+  background-color:#1f2937;
+  color: white;
+  display: flex;
+padding: 200px;
+  justify-content:  space-between;
+  align-items: flex-start;
+ flex-direction: column;
+  flex: 1;
+}
+button{
+  background-color: #3882F6;
+    border-color: #3882F6;
+    border-radius: 10px;
+    color: #F9FAF8;
+    padding: 0;
+    width: 100px;
+    height: 30px;
+}
+  
+
+.hero-main{ font-size: 48px;
+  font-weight: bold;
 }
 header{font-size: 24;
 color: #f9fa8f;
