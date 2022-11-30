@@ -55,6 +55,8 @@ p, h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 /* general styling */
+
+/* top section */
 .first-section{
   background-color:#1f2937;
   color: white;
@@ -69,11 +71,15 @@ justify-content: space-evenly;
   background-color:#1f2937;
   color: white;
   display: flex;
-  padding: 200px;
-  justify-content:  center;
+  padding: 100px;
+  justify-content:  space-between;
    align-content: center; 
-    flex-direction: column; 
-  flex: 1;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+ 
+    
+  
 }
 .nav-list{
   display: flex;
@@ -83,6 +89,7 @@ justify-content: space-evenly;
   color: #e5e7eb;
   gap: 20px;
 }
+
 button{
   background-color: #3882F6;
   border-color: #3882F6;
@@ -91,11 +98,13 @@ button{
     padding: 0;
     width: 100px;
     height: 30px;
+
 }
   
 
 .hero-main{ font-size: 48px;
   font-weight: bold;
+  gap: 500px;
 }
 header{
   font-size: 24;
@@ -103,12 +112,28 @@ color: #f9faf8;
 
 }
 .dog-img{
-  width: 500px;
-  height: 500px;
-  margin-left: 50%;
+  max-width: 30%;
+    max-height:15%;
+    float: right;
+
 }
 .hero-second{
   font-size: 18px;
   color: #e5e7eb;
-  
+  height: 100px;
+  width:550px;
+}
+
+/* middle section */
+.second-section{
+  padding: 50px;
+background-color: white;
+display: flex;
+flex-direction: column;
+}
+.header-text{
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  text-align: center;
 }
