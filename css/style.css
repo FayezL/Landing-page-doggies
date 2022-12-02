@@ -57,13 +57,16 @@ p, h1, h2, h3, h4, h5, h6 {
 /* general styling */
 
 /* top section */
+.header-logo{
+  font-size: 24px;
+}
 .first-section{
   background-color:#1f2937;
   color: white;
   display: flex;
   align-items: center;
 justify-content: space-evenly;
-
+padding: 1em;
 
 }
 
@@ -93,17 +96,16 @@ justify-content: space-evenly;
 button{
   background-color: #3882F6;
   border-color: #3882F6;
-    border-radius: 10px;
+    border-radius: 8px;
     color: #F9FAF8;
     padding: 0;
-    width: 100px;
-    height: 30px;
-
+    width: 120px;
+    margin-top: 1em;
 }
   
 
 .hero-main{ font-size: 48px;
-  font-weight: bold;
+  font-weight: bolder;
   gap: 500px;
 }
 header{
@@ -111,7 +113,7 @@ header{
 color: #f9faf8;
 
 }
-.dog-img{
+.dog-img1{
   max-width: 30%;
     max-height:15%;
     float: right;
@@ -121,19 +123,28 @@ color: #f9faf8;
   font-size: 18px;
   color: #e5e7eb;
   height: 100px;
-  width:550px;
+  width:390px;
 }
 
 /* middle section */
 .second-section{
   padding: 50px;
-background-color: white;
-display: flex;
-flex-direction: column;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .header-text{
   font-size: 36px;
   font-weight: bolder;
   color: #1f2937;
   text-align: center;
+}
+.img-subtext{
+  display: flex;
+    gap: 40px;
+    width: 200px;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    height: 230px;
 }
