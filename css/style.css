@@ -128,23 +128,40 @@ color: #f9faf8;
 
 /* middle section */
 .second-section{
-  padding: 50px;
-  background-color: white;
   display: flex;
-  align-items: center;
+  padding: 30px;
   flex-direction: column;
+  align-items: center;
 }
-.header-text{
+h2{
   font-size: 36px;
   font-weight: bolder;
-  color: #1f2937;
-  text-align: center;
+
 }
-.img-subtext{
+
+.dogs-section{
+  padding: 20px;
+display: flex;
+gap: 50px;
+}
+.dogs-img{
+  height: auto;
+  width: 200px;
+  object-fit: contain;
+}
+/* last section */
+.last-section{
   display: flex;
-    gap: 40px;
-    width: 200px;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-    height: 230px;
+  background-color: #e5e7eb;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+
+}
+.quote-text{
+  font-style: italic;
+font-weight: lighter;
+color: #1f2937;
+font-size: 36px;
+width: 740px;
 }
