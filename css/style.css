@@ -165,3 +165,42 @@ color: #1f2937;
 font-size: 36px;
 width: 740px;
 }
+.quote{
+float: right;
+font-weight: bolder;
+font-size: 24px;
+color:#1f2937
+}
+/* .sign-up-section */
+.sign-up-section{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882F6;
+    width: 60%;
+    height: 140px;
+    margin: 60px auto 130px auto;
+    border-radius: 8px;
+}
+
+.btn-sign{
+  border: 2px solid white;
+  display: inline-block;
+  padding: 4px;
+ margin-left: 50px;
+}
+.sign-up-div{
+  display: flex;
+    flex-direction: column;
+    color: white;
+}
+/* footer */
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #1f2937;
+  font-size: 18px;
+    color: #e5e7eb;
+}
