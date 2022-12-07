@@ -1,2 +1,2 @@
-# Flex-box
- trying felx box and learning basics of it
+# Landing page  
+- A simple landing page project for the love of dogs 🐶
